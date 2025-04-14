@@ -1,11 +1,10 @@
-import React from "react";
-
+// About.js
 function About() {
   return (
     <div id="about">
-      <h2>About Me</h2>
-      <p>I Made This</p>
-      <img src={image} alt="I made this" />
+      <h2>About</h2>
     </div>
   );
 }
+
+export default About; // Default export
